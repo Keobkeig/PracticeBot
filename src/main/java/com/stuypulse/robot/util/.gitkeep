@@ -1,0 +1,9 @@
+PID is feedback, takes setpoint and measurement and uses error and input to provide an output
+Feedforward calclates velocity and position without measurements 
+
+PID is reactive to error and caan react to distrubances
+Feedfoward cannot respond to error at all but doesnt need measurement
+
+For velocity, use feedword to get measurments to calculate for error for PID
+
+For position, use  motion profiling and a plan.

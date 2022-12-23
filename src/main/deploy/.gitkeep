@@ -1,3 +1,10 @@
 Files placed in this directory will be deployed to the RoboRIO into the
 'deploy' directory in the home folder. Use the 'Filesystem.getDeployDirectory' wpilib function
 to get a proper path relative to the deploy directory.
+
+files will be dumped int RoboRIO (computer on robot to run) through deploy code from ctrl-shift-p
+this folder is barely used for adding files to deploy onto robot onto of given code, often done to dump autos
+
+goals of networking:
+0) retriving files form RoboRIO
+1) uploading values to RoboRIO
