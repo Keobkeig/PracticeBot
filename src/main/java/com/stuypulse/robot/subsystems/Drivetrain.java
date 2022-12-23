@@ -53,15 +53,14 @@ public class Drivetrain extends SubsystemBase{
             motor.stopMotor();    
     }
 
-    private void setGrayhillDistancePerPulse(double distance) {
+    private void setEncoderDistancePerPulse(double distance) {
         rightGrayhill.setDistancePerPulse(distance);
         rightGrayhill.reset();
 
         leftGrayhill.setDistancePerPulse(distance);
         leftGrayhill.reset();
     }
-    
-    public void periodic() {
 
+    public void periodic() {    
     }
 }
